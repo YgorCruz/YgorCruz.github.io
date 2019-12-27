@@ -1,22 +1,29 @@
 /*Suavização da tela*/
+
 html {
     scroll-behavior: smooth;
 }
+
 /*cor de fundo e das letras*/
+
 body {
     background-color: #242737;
     color: white !important;
     position: absolute;
 }
+
 /*cor de fundo*/
+
 footer {
     background-color: #34495e;
     text-align: center;
     position: relative;
 }
-main{
+
+main {
     position: relative;
 }
+
 .d-img {
     height: 30px;
     margin-bottom: 0;
@@ -80,13 +87,15 @@ header, h1 {
     height: 170px;
     margin-right: 40%;
 }
-#seta{
-    height: 10px;
-}
-.main-img{
+
+.main-img {
     height: 50px !important;
 }
-a:active{
-    margin-top: 100px;
-    transition: 5s;
+
+#img:hover {
+    transform: translateY(+20px);
+}
+
+#img {
+    transition: all .3s;
 }
