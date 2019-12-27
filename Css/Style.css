@@ -86,7 +86,7 @@ header, h1 {
 .main-img{
     height: 50px !important;
 }
-div#seta a:hover{
-    margin-top: 10px;
+a:active{
+    margin-top: 100px;
     transition: 5s;
 }
