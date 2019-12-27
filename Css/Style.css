@@ -29,6 +29,8 @@ main {
     margin-bottom: 0;
     margin-left: 5px;
     margin-right: 5px;
+    background-color: #34495e;
+    border-radius: 100%;
 }
 
 a:hover {
@@ -92,10 +94,50 @@ header, h1 {
     height: 50px !important;
 }
 
+#img {
+    transition: all .3s;
+}
+
 #img:hover {
     transform: translateY(+20px);
 }
 
-#img {
+#btnWhatsapp {
+    transition: all .3s;
+}
+
+#btnWhatsapp:hover {
+    transform: translateY(-10px);
+}
+
+#btnGithub:hover {
+    transform: translateY(-10px);
+}
+
+#btnGithub {
+    transition: all .3s;
+}
+
+#btnPdf:hover {
+    transform: translateY(-10px);
+}
+
+#btnPdf {
+    transition: all .3s;
+}
+
+#btnLinkedin:hover {
+    transform: translateY(-10px);
+}
+
+#btnLinkedin {
+    transition: all .3s;
+}
+
+#btnGmail:hover {
+    transform: translateY(-10px);
+}
+
+#btnGmail {
     transition: all .3s;
 }
