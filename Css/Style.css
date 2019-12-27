@@ -1,0 +1,88 @@
+/*Suavização da tela*/
+html {
+    scroll-behavior: smooth;
+}
+/*cor de fundo e das letras*/
+body {
+    background-color: #242737;
+    color: white !important;
+    position: absolute;
+}
+/*cor de fundo*/
+footer {
+    background-color: #34495e;
+    text-align: center;
+    position: relative;
+}
+main{
+    position: relative;
+}
+.d-img {
+    height: 30px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+em {
+    color: #2ecc71;
+}
+
+header, h1 {
+    font-size: 30px !important;
+    color: white !important;
+}
+
+/*Nome Header*/
+
+#txt-name {
+    text-align: left;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    display: inline;
+}
+
+/*Borda das divs*/
+
+.bordas {
+    border: 1px solid #34495e;
+    margin: auto;
+}
+
+/*Foto*/
+
+#id-img {
+    height: 340px;
+    border-radius: 100%;
+}
+
+/*Titulo das divs*/
+
+.titulos {
+    color: #2ecc71;
+}
+
+.esq {
+    height: 530px;
+    margin-right: 100px;
+}
+
+.ult {
+    height: 170px;
+    margin-right: 40%;
+}
+#seta{
+    height: 10px;;
+}
+.main-img{
+    height: 50px !important;
+}
