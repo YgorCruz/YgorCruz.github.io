@@ -81,8 +81,12 @@ header, h1 {
     margin-right: 40%;
 }
 #seta{
-    height: 10px;;
+    height: 10px;
 }
 .main-img{
     height: 50px !important;
+}
+div#seta a:hover{
+    margin-top: 10px;
+    transition: 5s;
 }
