@@ -81,13 +81,12 @@ header, h1 {
 }
 
 .esq {
-    height: 530px;
+    height: auto;
     margin-right: 100px;
 }
 
 .ult {
-    height: 170px;
-    margin-right: 40%;
+    margin: auto;
 }
 
 .main-img {
